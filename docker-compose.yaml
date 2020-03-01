@@ -1,0 +1,17 @@
+---
+version: "3.7"
+services:
+  jupyter:
+    build: .
+    image: local/python-preso
+    init: true
+    hostname: presentor
+    ports:
+      - "127.88.88.88:8888:8888"
+    volumes:
+      - type: bind
+        source: ./presentation
+        target: /home/demo/project/presentation
+      - type: bind
+        source: ./jupyter_notebook_config.json
+        target: /home/demo/project/jupyter_notebook_config.json

@@ -1,0 +1,13 @@
+{
+  "NotebookApp": {
+    "enable_mathjax": false,
+    "password": "blake2b:dc3edfc4e658:4ad0a2e7bfb8993b666fa9708b84618ee03106aeaeb8810b11fd253d591a07e09875ff2fda53390fd6ac15eeeb30d5ceabf0497df6c755983e67e59cbf2cf562",
+    "notebook_dir": "presentation",
+    "nbserver_extensions": {
+      "rise": true
+    }
+  },
+  "KernelManager": {
+    "autorestart": false
+  }
+}
