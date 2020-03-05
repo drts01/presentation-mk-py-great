@@ -10,11 +10,3 @@ gnupg = "~=2.3.1"
 rise = "~=5.6.1"
 python-gnupg = "~=0.4.5"
 pillow = "~=7.0"
-
-[scripts]
-install =  "pipenv install --dev --skip-lock"
-notebook = "jupyter-notebook"
-enable_rise = "jupyter-nbextension enable --sys-prefix --py rise"
-setpassword = "python3 setpassword.py"
-build = "docker-compose build --compress --pull"
-up = "docker-compose up"
