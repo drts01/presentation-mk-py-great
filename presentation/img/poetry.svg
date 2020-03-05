@@ -1,0 +1,47 @@
+<svg viewBox="0 0 448.17 560" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{isolation:isolate;}.cls-2{fill:url(#j);}.cls-3{fill:url(#k);}.cls-4,.cls-5,.cls-6{mix-blend-mode:multiply;}.cls-4{fill:url(#g);}.cls-5{fill:url(#h);}.cls-6{fill:url(#i);}.cls-7{mix-blend-mode:screen;fill:url(#l);}</style>
+  <radialGradient id="j" cx="438.3" cy="639.01" r="569.94" gradientTransform="translate(0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6877ec" offset="0"/>
+   <stop stop-color="#5362cf" offset=".6"/>
+   <stop stop-color="#4352b9" offset="1"/>
+  </radialGradient>
+  <radialGradient id="k" cx="65.64" cy="-16.21" r="746.46" gradientTransform="translate(0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#00d5ff" offset="0"/>
+   <stop stop-color="#00b8eb" offset=".38"/>
+   <stop stop-color="#0080c5" offset="1"/>
+  </radialGradient>
+  <linearGradient id="g" x1="74.77" x2="277.23" y1="67.3" y2="512.72" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#294ca7" offset="0"/>
+   <stop stop-color="#96a7d4" offset=".48"/>
+   <stop stop-color="#e1e6f3" offset=".84"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="h" x1="-228.74" x2="451" y1="-144.29" y2="651.89" gradientTransform="translate(0)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#6877ec" offset="0"/>
+   <stop stop-color="#97a1f2" offset=".29"/>
+   <stop stop-color="#e2e4fb" offset=".77"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="i" x1="-151.22" x2="450.08" y1="-285.9" y2="430.63" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8397cc" offset="0"/>
+   <stop stop-color="#97a8d4" offset=".15"/>
+   <stop stop-color="#e2e6f3" offset=".73"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+  <radialGradient id="l" cx="259.68" cy="-34.71" r="431.37" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop offset="1"/>
+  </radialGradient>
+ </defs>
+ <g class="cls-1">
+  <g data-name="Layer 1">
+   <path class="cls-2" transform="translate(-56.25)" d="M168.08,560A570.54,570.54,0,0,0,459.84,403.59L56.25,0V448.17Z"/>
+   <path class="cls-3" transform="translate(-56.25)" d="M56.25,448.17C303.77,448.17,504.42,247.52,504.42,0H56.25Z"/>
+   <path class="cls-4" transform="translate(-56.25)" d="m56.25 448.17 17.25 17.25c121.57-4.45 231.4-55.68 312-136.23l-12.29-12.28a446.8 446.8 0 0 1-316.96 131.26z"/>
+   <path class="cls-5" transform="translate(-56.25)" d="M168.08,560A570.54,570.54,0,0,0,459.84,403.59L56.25,0V448.17Z"/>
+   <path class="cls-6" transform="translate(-56.25)" d="m459.84 403.59-403.59-403.59 366.89 437.13c12.69-10.67 24.98-21.82 36.7-33.54z"/>
+   <path class="cls-7" transform="translate(-56.25)" d="m56.25 0 316.91 316.91q4.23-4.25 8.35-8.6z"/>
+  </g>
+ </g>
+</svg>

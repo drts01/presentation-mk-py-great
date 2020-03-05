@@ -1,0 +1,63 @@
+<svg width="158px" height="158px" version="1.1" viewBox="0 0 158 158" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="b" d="m0 78.75c0-43.492 35.258-78.75 78.75-78.75s78.75 35.258 78.75 78.75-35.258 78.75-78.75 78.75-78.75-35.258-78.75-78.75"/>
+  <linearGradient id="e" x1="50%" x2="50%" y1="-67.097%" y2="63.987%">
+   <stop stop-color="#F79421" offset="0"/>
+   <stop stop-color="#F5CA1B" offset=".98352"/>
+   <stop stop-color="#F5CA1B" offset="1"/>
+  </linearGradient>
+  <polygon id="a" points="0 180 180 180 180 0 0 0"/>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <g transform="translate(-11 -11)">
+   <g transform="translate(90 90) scale(-1 1) rotate(180) translate(-90 -90)">
+    <g transform="translate(47.295 34.389)" fill="#fff" fill-rule="nonzero">
+     <path d="m63.75 37.5-21.141-11.672-21.282 12.059v23.975l21.282 12.115 21.141-10.965v-25.511zm0.15125 48.636-21.1 12.178-21.292-12.178-21.148 12.2v-73.131l42.596-24.046 42.085 24.159 0.51125 73.062-21.652-12.244z"/>
+    </g>
+    <g transform="translate(11.25 11.25)">
+     <mask id="d" fill="white">
+      <use xlink:href="#b"/>
+     </mask>
+     <g fill="url(#e)" fill-rule="nonzero" mask="url(#d)">
+      <path d="m0 78.75c0-43.492 35.258-78.75 78.75-78.75s78.75 35.258 78.75 78.75-35.258 78.75-78.75 78.75-78.75-35.258-78.75-78.75"/>
+     </g>
+    </g>
+    <mask id="c" fill="white">
+     <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#c)">
+     <g transform="translate(43.75 30)">
+      <g transform="translate(49.444 70.599)">
+       <polygon points="0 26.25 15.034 17.57 15.034 0.2075 0 8.8875" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(28.436 70.669)">
+       <polygon points="0 17.5 15.036 26.18 15.036 8.8175 0 0.1375" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(7.429 58.099)">
+       <polygon points="0 38.75 15.036 30.07 15.036 9.26 0 0.58" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(7.429 34.283)">
+       <polygon points="0 17.5 15.036 26.18 15.036 8.82 0 0.14" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(9.722 10.163)">
+       <polygon points="33.75 0 0.6925 19.088 15.729 27.768 33.75 17.365" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(49.444 10.163)">
+       <polygon points="0 0 0 17.361 18.02 27.768 33.056 19.086" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(69.236 34.421)">
+       <polygon points="16.25 0 1.2138 8.6825 1.2138 26.042 16.25 17.362" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(69.236 58.678)">
+       <polygon points="16.25 0 1.2138 8.6812 1.2138 29.491 16.25 38.17" fill="#fff" fill-rule="nonzero"/>
+      </g>
+      <g transform="translate(.4855 1.1784)">
+       <path d="m85 57.5-15.036 8.6812v20.81l15.036 8.6788v-38.17zm0-24.258-15.036 8.6825v17.36l15.036-8.68v-17.362zm-36.041-24.258v17.361l18.019 10.406 15.036-8.6812-33.055-19.086zm15.034 50.299v-17.36l-15.034-8.6825v17.364l15.034 8.6788zm-33.055 5.1725 15.035 8.68 15.036-8.68-15.036-8.68-15.035 8.68zm12.049-31.212-15.035 8.68v17.361l15.035-8.6812v-17.36zm0-24.259-33.056 19.088 15.035 8.68 18.021-10.402v-17.365zm-36.042 41.62 15.035 8.68v-17.36l-15.035-8.6812v17.361zm0 45.065 15.035-8.6788v-20.811l-15.035-8.68v38.17zm21.008-8.6788 15.035 8.68v-17.362l-15.035-8.68v17.362zm21.008 8.68 15.034-8.68v-17.362l-15.034 8.68v17.362zm18.02-3.51-21.006 12.128-21.008-12.128-23.994 13.852v-79.665l45.001-25.982 44.999 25.98v79.668l-23.992-13.852z" fill="#88752F" fill-rule="nonzero"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <text fill="#AFA37C" font-family="Optimist-Regular, Optimist" font-size="8"><tspan x="127.356" y="168">SM</tspan></text>
+  </g>
+ </g>
+</svg>
