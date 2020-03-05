@@ -27,10 +27,10 @@ RUN cd && PATH="${HOME}/.local/bin:${PATH}" && set -ex &&\
   ln -rsv ~/.pyenv/bin/pyenv ~/.local/bin/ &&\
   printf 'eval "$(pyenv init -)"' >> ${HOME}/.bashrc
 #   eval "$(pyenv init -)" &&\
-RUN bash -lc -- pyenv install --verbose 3.9-dev &&\
-RUN bash -lc -- pyenv install --verbose 3.7.6 &&\
-RUN bash -lc -- pyenv install --verbose 2.7.17 &&\
-RUN bash -lc -- pyenv install --verbose pypy3.6-7.3.0 &&\
+RUN bash -lc -- pyenv install --verbose 3.9-dev
+RUN bash -lc -- pyenv install --verbose 3.7.6
+RUN bash -lc -- pyenv install --verbose 2.7.17
+RUN bash -lc -- pyenv install --verbose pypy3.6-7.3.0
 RUN bash -lc -- pyenv global 3.9-dev pypy3.6-7.3.0 3.6.10
 #   rm -rf -- ~/.cache
 RUN cd && PATH="${HOME}/.local/bin:${PATH}" && eval "$(pyenv init -)" && set -ex &&\
