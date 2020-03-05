@@ -36,6 +36,7 @@ RUN bash -lc -- 'pyenv global 3.9-dev pypy3.6-7.3.0 3.7.6'
 RUN bash -lc -- 'python3 -m pip install --no-cache-dir --user git+https://github.com/pipxproject/pipx.git@c6515ff'
 RUN bash -lc -- 'pipx install git+https://github.com/pypa/pipenv.git@d10b2a216a25623ba9b3e3c4ce4573e0d764c1e4'
 RUN bash -lc -- 'pipx install poetry'
+RUN bash -lc -- 'pipx run pylint'
 RUN bash -lc -- 'pipx run --spec=pyjokes pyjoke'
 RUN bash -lc -- 'pipx run cowsay $(fortune -s)'
 #  rm -rf -- ~/.cache
