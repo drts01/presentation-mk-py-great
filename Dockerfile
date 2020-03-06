@@ -34,9 +34,11 @@ RUN bash -lc -- 'pyenv install --verbose pypy3.6-7.3.0'
 RUN bash -lc -- 'pyenv global 3.9-dev pypy3.6-7.3.0 3.7.6'
 #   rm -rf -- ~/.cache
 RUN bash -lc -- 'python3 -m pip install --no-cache-dir --user git+https://github.com/pipxproject/pipx.git@c6515ff'
-RUN bash -lc -- 'pipx install git+https://github.com/pypa/pipenv.git@d10b2a216a25623ba9b3e3c4ce4573e0d764c1e4'
+# RUN bash -lc -- 'pipx install git+https://github.com/pypa/pipenv.git@d10b2a216a25623ba9b3e3c4ce4573e0d764c1e4'
+RUN git clone --depth 1 --single-branch -- https://github.com/pypa/pipenv.git ~/pipenv.git
+RUN bash -lc -- 'pipx install ~/pipenv.git'
 RUN bash -lc -- 'pipx install poetry'
-RUN bash -lc -- 'pipx run pylint'
+RUN bash -lc -- 'pipx run pylint || exit 0'
 RUN bash -lc -- 'pipx run --spec=pyjokes pyjoke'
 RUN bash -lc -- 'pipx run cowsay $(fortune -s)'
 #  rm -rf -- ~/.cache
@@ -47,9 +49,9 @@ ENV PIPENV_CACHE_DIR="/home/demo/.cache/pip" \
 WORKDIR /home/demo/project
 COPY [ "Pipfile", "./" ]
 RUN PATH="${HOME}/.local/bin:${PATH}" && set -ex &&\
-  pipenv --python "$(pyenv which pypy3)" install &&\
+  pipenv --bare --python "$(pyenv which pypy3)" install &&\
   rm -rf -- ~/.cache &&\
-  pipenv install --dev &&\
+  pipenv --bare install --dev &&\
   pipenv run python3 -m pip uninstall --yes gnupg &&\
   mkdir -p ~/pipenv-example
 
