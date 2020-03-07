@@ -37,8 +37,8 @@ RUN bash -lc -- 'python3 -m pip install --no-cache-dir --user git+https://github
 # RUN bash -lc -- 'pipx install git+https://github.com/pypa/pipenv.git@d10b2a216a25623ba9b3e3c4ce4573e0d764c1e4'
 RUN git clone --depth 1 --single-branch -- https://github.com/pypa/pipenv.git ~/pipenv.git
 RUN bash -lc -- 'pipx install ~/pipenv.git'
-RUN bash -lc -- 'pipx install poetry'
-RUN bash -lc -- 'pipx run pylint || exit 0'
+RUN bash -lc -- 'pipx run poetry 1>/dev/null'
+RUN bash -lc -- 'pipx run pylint 1>/dev/null || exit 0'
 RUN bash -lc -- 'pipx run --spec=pyjokes pyjoke'
 RUN bash -lc -- 'pipx run cowsay $(fortune -s)'
 #  rm -rf -- ~/.cache
@@ -49,7 +49,7 @@ ENV PIPENV_CACHE_DIR="/home/demo/.cache/pip" \
 WORKDIR /home/demo/project
 COPY [ "Pipfile", "./" ]
 RUN PATH="${HOME}/.local/bin:${PATH}" && set -ex &&\
-  pipenv --bare --python "$(pyenv which pypy3)" install &&\
+  pipenv --bare --python "$(pyenv which python3.9)" install &&\
   rm -rf -- ~/.cache &&\
   pipenv --bare install --dev &&\
   pipenv run python3 -m pip uninstall --yes gnupg &&\
